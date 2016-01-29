@@ -4,7 +4,25 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+    <p>find the missing course materials here</p>
+    <br />
+
+    <h1 class="page-heading">Contents</h1>
+
+    <ul class="post-list">
+        {% for page in site.pages %}
+        <li>
+            <h2>
+                <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            </h2>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <br />
+    <br />
+    
+  <h1 class="page-heading">Blog</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
