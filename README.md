@@ -1,5 +1,5 @@
 # coursera-yandex-intro-to-machine-learning
-missing slides for the course
+missing course materials here
 
 http://koddo.github.io/coursera-yandex-intro-to-machine-learning/
 
