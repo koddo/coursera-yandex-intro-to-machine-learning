@@ -1,14 +1,14 @@
 # Site settings
-title: Your awesome title
+title: Coursera Yandex Intro to Machine Learning
 # email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Intro to machine learning by Yandex and HSE on coursera.org — find the missing course materials here
 baseurl: "/coursera-yandex-intro-to-machine-learning" # the subpath of your site, e.g. /blog/
 url: "http://koddo.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username:  koddo
+# github_username:  koddo
 
 # Build settings
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title/
